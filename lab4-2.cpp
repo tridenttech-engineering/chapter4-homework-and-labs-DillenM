@@ -4,6 +4,7 @@
 using namespace std;
 int main()
 {
+  
   //declare named constant and variables
   const double COMM_RATE = 0.1;
   double sales           = 0.0;
