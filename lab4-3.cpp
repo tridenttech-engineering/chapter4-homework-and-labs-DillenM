@@ -1,4 +1,4 @@
-//Lab4-3.cpp - displays a salesperson's commission
+//Lab4-3.cpp - displays a salesperson's commission with user input for commission rate
 //Created/revised by <your name> on <current date>
 
 #include <iostream>
@@ -6,19 +6,23 @@ using namespace std;
 
 int main()
 {
-  //declare named constant and variables
-  const double COMM_RATE = 0.1;
-  double sales = 0.0;
-  double commission = 0.0;
+    //declare variables
+    double comm_rate = 0.0;
+    double sales = 0.0;
+    double commission = 0.0;
 
-  //enter input item
-  cout << "Sales amount: ";
-  cin >> sales;
+    //enter input for sales amount
+    cout << "Sales amount: ";
+    cin >> sales;
 
-  //calculate and display the commision
-  commission = sales * COMM_RATE;
-  cout << "Commission: $" << commission << endl;
+    //enter input for commission rate
+    cout << "Commission rate (in decimal form): ";
+    cin >> comm_rate;
 
-  return 0;
+    //calculate and display the commission
+    commission = sales * comm_rate;
+    cout << "Commission: $" << commission << endl;
 
-} //end of main function
+    return 0;
+}
+//end of main function
