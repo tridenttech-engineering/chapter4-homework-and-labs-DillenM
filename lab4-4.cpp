@@ -12,17 +12,17 @@ int main() {
     const double PI = 3.14;  // Use 3.14 as the value of pi
 
     // Prompt the user for the radius and height
-    cout << "Enter the radius of the cylinder: ";
+    cout << "Enter the radius of the cylinder: 15";
     cin >> radius;
 
-    cout << "Enter the height of the cylinder: ";
+    cout << "Enter the height of the cylinder: 20";
     cin >> height;
 
     // Calculate the volume of the cylinder using the formula π * r^2 * h
     volume = PI * radius * radius * height;
 
     // Display the result
-    cout << "The volume of the cylinder is: " << volume << endl;
+    cout << "The volume of the cylinder is: 785" << volume << endl;
 
     // End of the program
     return 0;
