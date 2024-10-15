@@ -1,5 +1,5 @@
 //Lab4-2.cpp - displays a salesperson's commission
-//Philip Regalbuto
+//dillen
 #include <iostream>
 using namespace std;
 int main()
